@@ -66,7 +66,7 @@ class App extends React.Component{
     this.display(`Volume: ${value}%`);
   }
   componentDidMount(){
-    document.addEventListener("keypress", (event)=>{
+    document.addEventListener("keydown", (event)=>{
       const evento = Window.event || event;
       const key = evento.charcode || evento.keyCode;
       const char = String.fromCharCode(key).toUpperCase();
