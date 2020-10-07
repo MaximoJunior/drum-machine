@@ -1,0 +1,25 @@
+.switch-btn {
+    width: 70px;
+    height: 20px;
+    cursor: pointer;
+    position: relative;
+    border: none;
+    background-color: #606163;
+    border-radius: 4px;
+    outline: none;
+    overflow: hidden;
+}
+.switch-btn-toggle {
+    display: block;
+    width: 35px;
+    height: 20px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: rgb(14, 185, 163);
+    border-radius: 4px;
+    box-shadow: 0 18px 40px -15px rgba(2, 2, 2, 0.904);
+    opacity: 0.4;
+    transition: all 500ms ease-in-out;
+    overflow: hidden;
+}
